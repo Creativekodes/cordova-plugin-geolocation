@@ -101,7 +101,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <preference name="GEOLOCATION_USAGE_DESCRIPTION" default=" " />
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>$GEOLOCATION_USAGE_DESCRIPTION</string>
+            <string>Please turn on your GPS for better app performance</string>
         </config-file>
 
     </platform>
