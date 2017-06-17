@@ -99,9 +99,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/ios/CDVLocation.m" />
         <framework src="CoreLocation.framework" />
 
-        <preference name="GEOLOCATION_USAGE_DESCRIPTION" default=" " />
+        <preference name="GEOLOCATION_USAGE_DESCRIPTION" default="Laundry Locator please turn on your GPS for better app performance" />
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>Please turn on your GPS for better app performance</string>
+            <string>Laundry Locator please turn on your GPS for better app performance</string>
         </config-file>
 
     </platform>
